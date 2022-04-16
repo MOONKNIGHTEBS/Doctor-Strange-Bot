@@ -43,6 +43,10 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 </p>
 </details>
 
+## Deploye To Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/tgFgjG)
+
 ## Commands
 ```
 • /logs - to get the rescent errors
