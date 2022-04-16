@@ -31,15 +31,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help")
-            ],
-            [
-                InlineKeyboardButton('⚡️ Main Channel ⚡️', url="https://t.me/KCFilmss"),
-                InlineKeyboardButton('🔰 Main Group 🔰', url="https://t.me/KC_Films")
-            ],
-            [
-                InlineKeyboardButton('⚜️ Backup Channel ⚜️', url="https://t.me/+7AyTKA_SqdsyNWNl"),
-                InlineKeyboardButton('🧲 Backup Group 🧲', url="https://t.me/KC_Filmz")
+                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help")            
             ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -66,9 +58,6 @@ async def start(client, message):
             get = 'Gᴏᴏᴅ ᴇᴠᴇɴɪɴɢ'
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚜️ Backup Channel ⚜️', url='https://t.me/+7AyTKA_SqdsyNWNl'),
-            InlineKeyboardButton('🧲 Backup Group 🧲', url='https://t.me/KC_Filmz')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')        
