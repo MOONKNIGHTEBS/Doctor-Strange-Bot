@@ -34,20 +34,16 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 * Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
 
 
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/kckhais/Eva-KC-Bot/tree/main">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Thorappan-TG/Doctor-Strange-Bot)
 
 ## Deploye To Railway
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/tgFgjG)
 
-## Commands
+## Deploy To Oktecto 
+
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://telegra.ph/file/c4ecaecf09a1c68a2dbc4.jpg)
+
 ```
 • /logs - to get the rescent errors
 • /stats - to get status of files in db.
